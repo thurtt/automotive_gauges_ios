@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5612BFEE17BEEF10F7A939E /* Pods_Auto_Gauges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EEF4B0E2C96C36B6BDE2AA /* Pods_Auto_Gauges.framework */; };
+		E243BD602550EBEA00121373 /* GaugeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E243BD5F2550EBEA00121373 /* GaugeManager.swift */; };
+		E280679321D1690900AE51AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280679221D1690900AE51AE /* AppDelegate.swift */; };
+		E280679521D1690900AE51AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280679421D1690900AE51AE /* ViewController.swift */; };
+		E280679821D1690900AE51AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E280679621D1690900AE51AE /* Main.storyboard */; };
+		E280679A21D1690B00AE51AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E280679921D1690B00AE51AE /* Assets.xcassets */; };
+		E280679D21D1690B00AE51AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E280679B21D1690B00AE51AE /* LaunchScreen.storyboard */; };
+		E28067B721D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.m in Sources */ = {isa = PBXBuildFile; fileRef = E28067B221D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.m */; };
+		E28067B821D5CDBA00AE51AE /* WMGaugeViewStyle3D.m in Sources */ = {isa = PBXBuildFile; fileRef = E28067B321D5CDBA00AE51AE /* WMGaugeViewStyle3D.m */; };
+		E28067B921D5CDBA00AE51AE /* WMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E28067B621D5CDBA00AE51AE /* WMGaugeView.m */; };
+		E28067BB21D8709E00AE51AE /* TachGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067BA21D8709E00AE51AE /* TachGauge.swift */; };
+		E28067BD21DED59A00AE51AE /* GaugeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067BC21DED59A00AE51AE /* GaugeBase.swift */; };
+		E28067BF21DEEFD800AE51AE /* OilGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067BE21DEEFD800AE51AE /* OilGauge.swift */; };
+		E28067C121DEEFF900AE51AE /* TempGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067C021DEEFF900AE51AE /* TempGauge.swift */; };
+		E28067C321DEF01000AE51AE /* VoltGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067C221DEF01000AE51AE /* VoltGauge.swift */; };
+		E28067C421E43F7900AE51AE /* (null) in Resources */ = {isa = PBXBuildFile; };
+		E28067C521E43F7E00AE51AE /* (null) in Resources */ = {isa = PBXBuildFile; };
+		E28067C721F1748500AE51AE /* BLEConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28067C621F1748500AE51AE /* BLEConnectionManager.swift */; };
+		E28067C921F4237800AE51AE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28067C821F4237800AE51AE /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B0043EF5C02D70FA2BB88F /* Pods-Auto Gauges.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Gauges.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auto Gauges/Pods-Auto Gauges.release.xcconfig"; sourceTree = "<group>"; };
+		86F5A4256A40913A82663238 /* Pods-Auto Gauges.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auto Gauges.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auto Gauges/Pods-Auto Gauges.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EEF4B0E2C96C36B6BDE2AA /* Pods_Auto_Gauges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auto_Gauges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E243BD5F2550EBEA00121373 /* GaugeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeManager.swift; sourceTree = "<group>"; };
+		E280678F21D1690900AE51AE /* Auto Gauges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Gauges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280679221D1690900AE51AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E280679421D1690900AE51AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E280679721D1690900AE51AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E280679921D1690B00AE51AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E280679C21D1690B00AE51AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E280679E21D1690B00AE51AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28067A821D2A90C00AE51AE /* Auto Gauges-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Auto Gauges-Bridging-Header.h"; sourceTree = "<group>"; };
+		E28067B021D5CDBA00AE51AE /* WMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMGaugeView.h; path = WMGaugeView/WMGaugeView.h; sourceTree = SOURCE_ROOT; };
+		E28067B121D5CDBA00AE51AE /* WMGaugeViewStyle3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMGaugeViewStyle3D.h; path = WMGaugeView/WMGaugeViewStyle3D.h; sourceTree = SOURCE_ROOT; };
+		E28067B221D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMGaugeViewStyleFlatThin.m; path = WMGaugeView/WMGaugeViewStyleFlatThin.m; sourceTree = SOURCE_ROOT; };
+		E28067B321D5CDBA00AE51AE /* WMGaugeViewStyle3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMGaugeViewStyle3D.m; path = WMGaugeView/WMGaugeViewStyle3D.m; sourceTree = SOURCE_ROOT; };
+		E28067B421D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMGaugeViewStyleFlatThin.h; path = WMGaugeView/WMGaugeViewStyleFlatThin.h; sourceTree = SOURCE_ROOT; };
+		E28067B521D5CDBA00AE51AE /* WMGaugeViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMGaugeViewStyle.h; path = WMGaugeView/WMGaugeViewStyle.h; sourceTree = SOURCE_ROOT; };
+		E28067B621D5CDBA00AE51AE /* WMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMGaugeView.m; path = WMGaugeView/WMGaugeView.m; sourceTree = SOURCE_ROOT; };
+		E28067BA21D8709E00AE51AE /* TachGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TachGauge.swift; sourceTree = "<group>"; };
+		E28067BC21DED59A00AE51AE /* GaugeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBase.swift; sourceTree = "<group>"; };
+		E28067BE21DEEFD800AE51AE /* OilGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilGauge.swift; sourceTree = "<group>"; };
+		E28067C021DEEFF900AE51AE /* TempGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempGauge.swift; sourceTree = "<group>"; };
+		E28067C221DEF01000AE51AE /* VoltGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltGauge.swift; sourceTree = "<group>"; };
+		E28067C621F1748500AE51AE /* BLEConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConnectionManager.swift; sourceTree = "<group>"; };
+		E28067C821F4237800AE51AE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E280678C21D1690900AE51AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28067C921F4237800AE51AE /* CoreBluetooth.framework in Frameworks */,
+				D5612BFEE17BEEF10F7A939E /* Pods_Auto_Gauges.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C564F620C32E21C37C6968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86F5A4256A40913A82663238 /* Pods-Auto Gauges.debug.xcconfig */,
+				32B0043EF5C02D70FA2BB88F /* Pods-Auto Gauges.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7110D5FD2155AFA359CB2114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28067C821F4237800AE51AE /* CoreBluetooth.framework */,
+				E1EEF4B0E2C96C36B6BDE2AA /* Pods_Auto_Gauges.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E280678621D1690900AE51AE = {
+			isa = PBXGroup;
+			children = (
+				E28067AF21D5CD9F00AE51AE /* WMGaugeView */,
+				E280679121D1690900AE51AE /* Auto Gauges */,
+				E280679021D1690900AE51AE /* Products */,
+				53C564F620C32E21C37C6968 /* Pods */,
+				7110D5FD2155AFA359CB2114 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E280679021D1690900AE51AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E280678F21D1690900AE51AE /* Auto Gauges.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E280679121D1690900AE51AE /* Auto Gauges */ = {
+			isa = PBXGroup;
+			children = (
+				E280679221D1690900AE51AE /* AppDelegate.swift */,
+				E280679421D1690900AE51AE /* ViewController.swift */,
+				E280679621D1690900AE51AE /* Main.storyboard */,
+				E280679921D1690B00AE51AE /* Assets.xcassets */,
+				E280679B21D1690B00AE51AE /* LaunchScreen.storyboard */,
+				E280679E21D1690B00AE51AE /* Info.plist */,
+				E28067C621F1748500AE51AE /* BLEConnectionManager.swift */,
+				E28067A821D2A90C00AE51AE /* Auto Gauges-Bridging-Header.h */,
+				E28067BA21D8709E00AE51AE /* TachGauge.swift */,
+				E28067BE21DEEFD800AE51AE /* OilGauge.swift */,
+				E28067BC21DED59A00AE51AE /* GaugeBase.swift */,
+				E28067C021DEEFF900AE51AE /* TempGauge.swift */,
+				E28067C221DEF01000AE51AE /* VoltGauge.swift */,
+				E243BD5F2550EBEA00121373 /* GaugeManager.swift */,
+			);
+			path = "Auto Gauges";
+			sourceTree = "<group>";
+		};
+		E28067AF21D5CD9F00AE51AE /* WMGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				E28067B021D5CDBA00AE51AE /* WMGaugeView.h */,
+				E28067B621D5CDBA00AE51AE /* WMGaugeView.m */,
+				E28067B521D5CDBA00AE51AE /* WMGaugeViewStyle.h */,
+				E28067B121D5CDBA00AE51AE /* WMGaugeViewStyle3D.h */,
+				E28067B321D5CDBA00AE51AE /* WMGaugeViewStyle3D.m */,
+				E28067B421D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.h */,
+				E28067B221D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.m */,
+			);
+			name = WMGaugeView;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E280678E21D1690900AE51AE /* Auto Gauges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28067A121D1690B00AE51AE /* Build configuration list for PBXNativeTarget "Auto Gauges" */;
+			buildPhases = (
+				797BD912EBCFF1281F8A8FD3 /* [CP] Check Pods Manifest.lock */,
+				E280678B21D1690900AE51AE /* Sources */,
+				E280678C21D1690900AE51AE /* Frameworks */,
+				E280678D21D1690900AE51AE /* Resources */,
+				DFAF52F9847EEFE35D1A9EF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Auto Gauges";
+			productName = "Auto Gauges";
+			productReference = E280678F21D1690900AE51AE /* Auto Gauges.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E280678721D1690900AE51AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Thomas Hurtt";
+				TargetAttributes = {
+					E280678E21D1690900AE51AE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1200;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E280678A21D1690900AE51AE /* Build configuration list for PBXProject "Auto Gauges" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E280678621D1690900AE51AE;
+			productRefGroup = E280679021D1690900AE51AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E280678E21D1690900AE51AE /* Auto Gauges */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E280678D21D1690900AE51AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E280679D21D1690B00AE51AE /* LaunchScreen.storyboard in Resources */,
+				E28067C521E43F7E00AE51AE /* (null) in Resources */,
+				E28067C421E43F7900AE51AE /* (null) in Resources */,
+				E280679A21D1690B00AE51AE /* Assets.xcassets in Resources */,
+				E280679821D1690900AE51AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		797BD912EBCFF1281F8A8FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Auto Gauges-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFAF52F9847EEFE35D1A9EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Auto Gauges/Pods-Auto Gauges-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlueCapKit/BlueCapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlueCapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auto Gauges/Pods-Auto Gauges-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E280678B21D1690900AE51AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E280679521D1690900AE51AE /* ViewController.swift in Sources */,
+				E243BD602550EBEA00121373 /* GaugeManager.swift in Sources */,
+				E28067C121DEEFF900AE51AE /* TempGauge.swift in Sources */,
+				E28067BF21DEEFD800AE51AE /* OilGauge.swift in Sources */,
+				E28067BD21DED59A00AE51AE /* GaugeBase.swift in Sources */,
+				E280679321D1690900AE51AE /* AppDelegate.swift in Sources */,
+				E28067BB21D8709E00AE51AE /* TachGauge.swift in Sources */,
+				E28067C721F1748500AE51AE /* BLEConnectionManager.swift in Sources */,
+				E28067B921D5CDBA00AE51AE /* WMGaugeView.m in Sources */,
+				E28067B821D5CDBA00AE51AE /* WMGaugeViewStyle3D.m in Sources */,
+				E28067B721D5CDBA00AE51AE /* WMGaugeViewStyleFlatThin.m in Sources */,
+				E28067C321DEF01000AE51AE /* VoltGauge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E280679621D1690900AE51AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E280679721D1690900AE51AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E280679B21D1690B00AE51AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E280679C21D1690B00AE51AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E280679F21D1690B00AE51AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E28067A021D1690B00AE51AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28067A221D1690B00AE51AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F5A4256A40913A82663238 /* Pods-Auto Gauges.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7ZC4J39BR;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
+				INFOPLIST_FILE = "Auto Gauges/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hurttlocker.com.Auto-Gauges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Auto Gauges/Auto Gauges-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28067A321D1690B00AE51AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B0043EF5C02D70FA2BB88F /* Pods-Auto Gauges.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7ZC4J39BR;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
+				INFOPLIST_FILE = "Auto Gauges/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hurttlocker.com.Auto-Gauges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Auto Gauges/Auto Gauges-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E280678A21D1690900AE51AE /* Build configuration list for PBXProject "Auto Gauges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E280679F21D1690B00AE51AE /* Debug */,
+				E28067A021D1690B00AE51AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28067A121D1690B00AE51AE /* Build configuration list for PBXNativeTarget "Auto Gauges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28067A221D1690B00AE51AE /* Debug */,
+				E28067A321D1690B00AE51AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E280678721D1690900AE51AE /* Project object */;
+}
